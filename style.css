@@ -18,6 +18,10 @@
 .col-md-6 {
 	width: 40%;
 }
+.col-md-12 {
+	width: 100%;
+	background-color: black;
+}
 .header {
 	padding: 40px 0;
 	background-color: #C0C0C0;
@@ -55,3 +59,29 @@
 .searchhere:focus {
   border-color: grey;
 }
+.formenu {
+	padding: 5px 0;
+	background-color: black;
+}
+ul {
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 0;
+}
+li {
+width:auto;
+display: inline-block;
+padding: 15px;
+}
+.menu li > a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+li:hover {
+	background-color: #C0C0C0;
+}
+
+
+
