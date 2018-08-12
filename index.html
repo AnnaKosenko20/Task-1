@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Shop online</title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="bootstrap.css">
@@ -26,11 +27,11 @@
 				</div>
 			</div>
 		</div>
-	</header>
+ </header>
 	<div class="formenu">
-		<div class=container>
-		<ul class="menu row">
-			<li><a href="">Home</a></li>
+		<div class="container">
+		    <ul class="menu" id="myTopnav">
+			<li><a href="" class="active">Home</a></li>
 			<li><a href="">Sale</a></li>
 			<li><a href="">Handbags</a></li>
 			<li><a href="">Wallets</a></li>
@@ -40,20 +41,241 @@
 			<li><a href="">Vintage</a></li>
 			<li><a href="">Services</a></li>
 			<li><a href="">Contact us</a></li>
-		</ul>
+			<li class="topnavicon"><a href="javascript:void(0);" style="font-size: 15px;" onclick="myFunction()">&#9776;</a></li>
+			</ul>
 	</div>
-	</div>
+</div>
 	
 	<main class="main">
 		<div class=container>
-			<div class="raw">
-				<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="items">
+						<div class="sale">Sale!</div>
+						<div class="itemphoto"><img src="img/item6.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded white t-shirt</a></p>
+						<p class="itemgroup">Clothes</p>
+						<p class="price">200$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">White branded t-shirt - fashionable unisex t-shirt. Natural 100% cotton.</p>
+						<p class="size">Size: S-XXL</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+				</div>
+			</div>
+
+				<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item2.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded grey t-shirt</a></p>
+						<p class="itemgroup">Clothes</p>
+						<p class="price">250$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">Grey branded t-shirt - fashionable t-shirt for men. Natural 100% cotton.</p>
+						<p class="size">Size: S-XXL</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item3.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded brown shorts</a></p>
+						<p class="itemgroup">Clothes</p>
+						<p class="price">250$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">Brown branded shorts - comfortable unisex shorts. Natural 100% cotton.</p>
+						<p class="size">Size: S-XXL</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item4.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded red shoes</a></p>
+						<p class="itemgroup">Shoes</p>
+						<p class="price">550$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">Red branded shoes - fashionable sexy shoes for self-сonfident women. Natural 100% leather.</p>
+						<p class="size">Size: 35-40</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item7.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded black wallet</a></p>
+						<p class="itemgroup">Accessories</p>
+						<p class="price">100$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">Black leather wallet - exquisite wallet for men. Natural 100% leather.</p>
+						<p class="size">Size: 15x10</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+				</div>
+			</div>
+			<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item8.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded white bag</a></p>
+						<p class="itemgroup">Accessories</p>
+						<p class="price">650$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">White branded bag - perfect bag for self-сonfident stylish women. Natural 100% leather.</p>
+						<p class="size">Size: 65x80</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item5.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded grey t-shirt</a></p>
+						<p class="itemgroup">Clothes</p>
+						<p class="price">250$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">Grey branded t-shirt - perfect-fit for stylish and active men. Natural 100% cotton.</p>
+						<p class="size">Size: S-XXL</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="items">
+						<div class="itemphoto"><img src="img/item3.png" alt=""></div>
+						<p class="name"><a href="" class="itemname">Branded brown shorts</a></p>
+						<p class="itemgroup">Clothes</p>
+						<p class="price">250$</p>
+	<div class="star-rating">
+      <div class="star-rating__wrap">
+        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+      </div>
+    </div>
+						<p class="itemdescription">Brown branded shorts - comfortable unisex shorts. Natural 100% cotton.</p>
+						<p class="size">Size: S-XXL</p>
+						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
+						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button></p>
+					</div>
+				</div>
+				<div class="col-md-4">
 					<div class="items">
 						<div class="itemphoto"><img src="img/item1.png" alt=""></div>
-						<p class="itemname"><a href="">Branded brown shoes</a></p>
+						<p class="name"><a href="" class="itemname">Branded brown shoes</a></p>
 						<p class="itemgroup">Shoes</p>
 						<p class="price">300$</p>
-						<div class="star-rating">
+	<div class="star-rating">
       <div class="star-rating__wrap">
         <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
         <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
@@ -72,12 +294,50 @@
 						<p><button class="buynow">Buy now   <i class="fa fa-shopping-basket" aria-hidden="true"></i></button></p>
 						<p><button class="moreinformation">More information  <i class="fa fa-question-circle" aria-hidden="true"></i>
 </button></p>
-					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p><b>Women brands</b></p>
+					<p>Lilly Allen</p>
+					<p>Lana del Ray</p>
+					<p>Kylie Minogue</p>
+					<p>Madonna</p>
+					<p>Rihanna</p>
+				</div>
+				<div class="col-md-3">
+					<p><b>Men brands</b></p>
+					<p>Woody Allen</p>
+					<p>Tom Hardy</p>
+					<p>Lloyd Johns</p>
+					<p>Oscar Wilde</p>
+					<p>Brad Pitt</p>
+				</div>
+				<div class="col-md-3">
+					<p><b>Accessories</b></p>
+					<p>Kira Knightly</p>
+					<p>Will Smith</p>
+					<p>Emma Stone</p>
+					<p>Ryan Gosling</p>
+					<p>Sting</p>
+				</div>
+				<div class="col-md-3">
+					<p><b>Follow us in</b></p>
+					<p><a href="" class="socialicons"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></p>
+					<p><a href="" class="socialicons"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+					<p><a href="" class="socialicons"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
+					<p><a href="" class="socialicons"><i class="fa fa-telegram" aria-hidden="true"></i></a></p>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	<div class="forfooter">Company 2018</div>
 	<script src="app.js"></script>
-	<footer class="footer"></footer>
 </body>
 </html>
